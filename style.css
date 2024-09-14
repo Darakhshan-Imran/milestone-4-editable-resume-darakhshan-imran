@@ -1,0 +1,121 @@
+
+.container{
+    width:80vh;
+    height: 140vh;
+    margin-bottom: 10px;
+    padding:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    border:solid;
+    border-color: rgb(231, 129, 21);
+    box-shadow: 0 0 5px rgb(59, 59, 59);
+    background-color: rgb(136, 131, 131);
+    font-size: large;
+    
+}
+
+h1{
+ 
+  display: flex; 
+  align-items: center;
+  flex-direction: column;
+}
+
+input{
+  width:70vh;
+  height:3vh;
+
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image:url('bgimage.jpg') ; 
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:cover;   
+}
+fieldset {
+    width: 70%;
+    height:fit-content;
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 8px 0;
+    width:70vh;
+    color:#fff;
+    font-size: large;
+  
+  }
+  legend {
+    font-size: x-large;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      padding:10px;
+      text-align: center;
+  }
+  
+  textarea{
+
+    width:70vh;
+    height:5vh;
+  }
+
+  
+  #create-resume{
+    padding:8px;
+    width:8rem;
+    border-radius: 5px;
+    border:none;
+    margin: 5px 0 8px;
+    font-size: large;
+    background-color: rgb(228, 72, 15);
+    color:aliceblue;
+  }
+
+ #create-resume:hover{
+    cursor: pointer;
+    transition: all .80s;
+    background-color: rgba(219, 98, 54, 0.97);
+    color: black;
+  }
+  #reset{
+    padding:8px;
+    width:8rem;
+    border-radius: 5px;
+    border:none;
+    margin: 5px 0 8px;
+    font-size: large;
+    background-color: rgb(228, 72, 15);
+    color:aliceblue;
+  }
+
+ #reset:hover{
+    cursor: pointer;
+    transition: all .80s;
+    background-color: rgba(219, 98, 54, 0.97);
+    color: black;
+  }
+#resumeoutput{
+
+    width:80vh;
+    height: auto;
+    margin-bottom: 10px;
+    padding:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    border:solid;
+    border-color: rgb(231, 129, 21);
+    box-shadow: 0 0 5px rgb(114, 111, 111);
+    background-color: rgb(194, 189, 189);
+    font-size: large;
+}
+
+
